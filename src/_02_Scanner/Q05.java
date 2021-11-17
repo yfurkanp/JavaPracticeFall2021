@@ -15,7 +15,16 @@ public class Q05 {
         hipotenus: 13      */
 
 
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Üçgenin a kenar uzunluğunu giriniz: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Üçgenin b kenar uzunluğunu giriniz: ");
+        int b = scanner.nextInt();
+
+        double h = Math.sqrt((a * a) + (b * b));
+        System.out.println("Hipotenüs: " + h);
 
 
     }

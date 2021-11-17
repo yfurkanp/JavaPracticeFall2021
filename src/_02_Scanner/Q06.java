@@ -17,8 +17,16 @@ public class Q06 {
         Süre 4 saattir.
      */
 
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Gideceğiniz yol mesafesi(km): ");
+        double yol = scanner.nextDouble();
 
+        System.out.print("Ortalama Hızınız(km/sa): ");
+        double ort_hiz = scanner.nextDouble();
+
+        double varis_suresi = yol / ort_hiz;
+        System.out.print("Varış süreniz: " + varis_suresi + " saat");
 
 
     }
